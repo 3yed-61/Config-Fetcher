@@ -56,7 +56,7 @@ def main():
         sys.exit(1)
 
     try:
-        with open('configs.txt', 'w', encoding='utf-8') as f:
+        with open('configs.json', 'w', encoding='utf-8') as f:
             f.write(HEADERS)
             f.write('\n\n')
             f.write('\n'.join(configs))
