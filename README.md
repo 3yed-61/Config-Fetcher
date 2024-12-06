@@ -1,3 +1,9 @@
+# Config Fetcher
+
+**Config Fetcher** is a simple and functional Python script that is used to get and save settings from specified addresses. This program fetches configuration files, checks them, and saves them to a file called "configs.json" along with some default information.
+The configs.json are updated every day
+
+
 **QR code** :
 
 <p align="center"> 
