@@ -10,7 +10,7 @@
  <img width="70%" src="https://github.com/3yed-61/Config-Fetcher/blob/1c1671d44959dc718fb1b358e9f8aad4d5d1ce4a/qr-code.png" />
  </p>
 
-![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/3ye  d-61/warpsub/blob/1e9fa0df21d00878653e25cbdfc49421092d1496/images/p.gif)
+![212284100-561aa473-3905-4a80-b561-0d28506553ee](https://github.com/3yed-61/warpsub/blob/1e9fa0df21d00878653e25cbdfc49421092d1496/images/p.gif)
 
 
 **SUB LINK** :
