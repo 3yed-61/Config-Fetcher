@@ -1,4 +1,4 @@
-name: Update Outline Collector
+name: Update Outline fetcher
 
 on:
   schedule:
@@ -25,9 +25,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
     
-    - name: Run outline collector
+    - name: Run outline fetcher
       run: |
-        python collector.py
+        python fetcher.py
       continue-on-error: false
     
     - name: Check if configs.json exists
