@@ -30,10 +30,10 @@ jobs:
         python fetcher.py
       continue-on-error: false
     
-    - name: Check if configs.json exists
+    - name: Check if configs.txt exists
       run: |
-        if [ ! -f configs.json ]; then
-          echo "configs.json was not created!"
+        if [ ! -f configs.txt ]; then
+          echo "configs.txt was not created!"
           exit 1
         fi
     
@@ -41,7 +41,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add configs.json
+        git add configs.txt
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
