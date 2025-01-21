@@ -56,11 +56,11 @@ def main():
         sys.exit(1)
 
     try:
-        with open('configs.json', 'w', encoding='utf-8') as f:
+        with open('configs.txt', 'w', encoding='utf-8') as f:
             f.write(HEADERS)
             f.write('\n\n')
             f.write('\n'.join(configs))
-        logger.info(f"Successfully wrote {len(configs)} configs to configs.json with headers")
+        logger.info(f"Successfully wrote {len(configs)} configs to configs.txt with headers")
     except Exception as e:
         logger.error(f"Error writing to file: {str(e)}")
         sys.exit(1)
