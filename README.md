@@ -15,5 +15,5 @@
 
 **SUB LINK** :
 ```POV-Ray SDL
-https://raw.githubusercontent.com/3yed-61/Config-Fetcher/refs/heads/main/configs.json
+https://raw.githubusercontent.com/3yed-61/Config-Fetcher/refs/heads/main/configs.txt
 ```
