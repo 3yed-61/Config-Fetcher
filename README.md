@@ -1,7 +1,7 @@
 # Config Fetcher
 **Config Fetcher** is a simple and functional Python script that is used to fetch and save Shadowsocks configs from specified addresses.   This program fetches configs files, checks them, and saves them to a file called "configs.txt" along with some default information.
 
-## configs.json is updated every day
+## configs.txt is updated every day
 
 
 **QR code**:
